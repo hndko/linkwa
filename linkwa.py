@@ -1,2 +1,158 @@
-import marshal
-exec(marshal.loads(b'\xe3\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x03\x00\x00\x00@\x00\x00\x00s\xd8\x00\x00\x00d\x00d\x01l\x00Z\x00d\x00d\x01l\x01Z\x01d\x00d\x02l\x02m\x03Z\x03\x01\x00d\x00d\x03l\x04m\x05Z\x05m\x06Z\x06\x01\x00d\x04d\x05\x84\x00Z\x07d\x06d\x07\x84\x00Z\x08e\x08\x83\x00\x01\x00e\x07\x83\x00\x01\x00d\x08Z\te\nd\t\x83\x01Z\x0be\nd\n\x83\x01Z\x0cd\x0be\x0b\x17\x00d\x0c\x17\x00e\x0c\x17\x00Z\re\x0ed\r\x83\x01\x01\x00e\x0ed\x0e\x83\x01\x01\x00e\x0ed\r\x83\x01\x01\x00e\x01\xa0\x0fd\x0f\xa1\x01\x01\x00e\x0ed\x10e\r\x83\x02\x01\x00e\x0ed\x11\x83\x01\x01\x00e\nd\x12\x83\x01Z\te\x08\x83\x00\x01\x00e\x07\x83\x00\x01\x00e\td\x13k\x02rLe\x08\x83\x00\x01\x00e\x07\x83\x00\x01\x00e\x0ed\x14\x83\x01\x01\x00q\xd4qLd\x01S\x00)\x15\xe9\x00\x00\x00\x00N)\x01\xda\rBeautifulSoup)\x02\xda\x06system\xda\x04namec\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x00\x00\x00C\x00\x00\x00sL\x00\x00\x00t\x00d\x01\x83\x01\x01\x00t\x00d\x02\x83\x01\x01\x00t\x00d\x01\x83\x01\x01\x00t\x00d\x03\x83\x01\x01\x00t\x00d\x04\x83\x01\x01\x00t\x00d\x05\x83\x01\x01\x00t\x00d\x01\x83\x01\x01\x00t\x00d\x06\x83\x01\x01\x00t\x00d\x01\x83\x01\x01\x00d\x00S\x00)\x07N\xfa/###############################################z/#         Tools Auto Create Link Wa           #z/# Create By : Kyuoko                          #z/# Code : Python                               #z/# Thx To UKL-TEAM, GFS-TEAM, AND YOU          #z/# Note : Input No Awalan 62                   #)\x01\xda\x05print\xa9\x00r\x07\x00\x00\x00r\x07\x00\x00\x00\xda\x00\xda\x06banner\t\x00\x00\x00s\x12\x00\x00\x00\x00\x01\x08\x01\x08\x01\x08\x01\x08\x01\x08\x01\x08\x01\x08\x01\x08\x01r\t\x00\x00\x00c\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00C\x00\x00\x00s\x1e\x00\x00\x00t\x00d\x01k\x02r\x12t\x01d\x02\x83\x01}\x00n\x08t\x01d\x03\x83\x01}\x00d\x00S\x00)\x04N\xda\x02nt\xda\x03cls\xda\x05clear)\x02r\x04\x00\x00\x00r\x03\x00\x00\x00)\x01\xda\x01_r\x07\x00\x00\x00r\x07\x00\x00\x00r\x08\x00\x00\x00r\x0c\x00\x00\x00\x15\x00\x00\x00s\x06\x00\x00\x00\x00\x02\x08\x01\n\x03r\x0c\x00\x00\x00\xda\x01yz\x17Input Nomor Whatsapp : z\x1cInput Text/Pesan Whatsapp : z$https://api.whatsapp.com/send?phone=z\x06&text=r\x05\x00\x00\x00z\x0fPlease wait ...\xe9\x05\x00\x00\x00z\x07Link : r\x08\x00\x00\x00z\x1bMau Coba Buat Lagi {y/n} : \xda\x01nz\x1aGoodbye, See You Later ...)\x10Z\x08requests\xda\x04timeZ\x03bs4r\x02\x00\x00\x00\xda\x02osr\x03\x00\x00\x00r\x04\x00\x00\x00r\t\x00\x00\x00r\x0c\x00\x00\x00Z\x04loop\xda\x05inputZ\x06number\xda\x04text\xda\x04linkr\x06\x00\x00\x00\xda\x05sleepr\x07\x00\x00\x00r\x07\x00\x00\x00r\x07\x00\x00\x00r\x08\x00\x00\x00\xda\x08<module>\x01\x00\x00\x00s2\x00\x00\x00\x08\x01\x08\x01\x0c\x01\x10\x05\x08\x0c\x08\n\x06\x01\x06\x01\x04\x02\x08\x01\x08\x01\x10\x01\x08\x01\x08\x01\x08\x01\n\x01\n\x01\x08\x01\x08\x01\x06\x01\x06\x01\x08\x01\x06\x01\x06\x01\x08\x01'))
+#!/usr/bin/env python3
+"""
+LinkWa - Powerful WhatsApp Link Generator
+Created by Kyuoko | Updated for Modern Usage
+"""
+import os
+import sys
+import time
+import urllib.parse
+import argparse
+import webbrowser
+
+# ANSI Colors
+C_RED = "\033[91m"
+C_GREEN = "\033[92m"
+C_YELLOW = "\033[93m"
+C_BLUE = "\033[94m"
+C_CYAN = "\033[96m"
+C_RESET = "\033[0m"
+C_BOLD = "\033[1m"
+
+# Icons
+I_WA = "🟢"
+I_LINK = "🔗"
+I_ERROR = "❌"
+I_SUCCESS = "✅"
+I_INFO = "ℹ️"
+I_INPUT = "⌨️"
+
+def banner():
+    os.system('cls' if os.name == 'nt' else 'clear')
+    print(f"{C_GREEN}{C_BOLD}")
+    print(r"  _     _       _  __        __    ")
+    print(r" | |   (_)_ __ | |_\ \      / /_ _ ")
+    print(r" | |   | | '_ \| __|\ \ /\ / / _` |")
+    print(r" | |___| | | | | |_  \ V  V / (_| |")
+    print(r" |_____|_|_| |_|\__|  \_/\_/ \__,_|")
+    print(f"{C_RESET}")
+    print(f"  {C_CYAN}{I_WA}  Powerful WhatsApp Link Generator {I_WA}{C_RESET}")
+    print(f"  {C_YELLOW}Creating Connections, Simplified.{C_RESET}\n")
+    print(f"  {C_BLUE}[-] Created By : Kyuoko{C_RESET}")
+    print(f"  {C_BLUE}[-] Updated By : Antigravity{C_RESET}\n")
+
+def format_number(phone):
+    """Formats phone number to international format (default ID 62)."""
+    # Remove non-numeric characters
+    phone = ''.join(filter(str.isdigit, phone))
+
+    if not phone:
+        return None
+
+    if phone.startswith("08"):
+        return "62" + phone[1:]
+    elif phone.startswith("62"):
+        return phone
+    else:
+        # Assume international format or user knows what they are doing
+        return phone
+
+def generate_link(phone, text):
+    """Generates the WhatsApp API link."""
+    base_url = "https://api.whatsapp.com/send"
+    params = {"phone": phone}
+    if text:
+        params["text"] = text
+    return f"{base_url}?{urllib.parse.urlencode(params)}"
+
+def interactive_mode():
+    """Runs the interactive CLI menu."""
+    while True:
+        banner()
+        print(f"{C_YELLOW}  [1] {C_RESET}Generate WhatsApp Link")
+        print(f"{C_YELLOW}  [2] {C_RESET}About")
+        print(f"{C_YELLOW}  [3] {C_RESET}Exit")
+
+        try:
+            choice = input(f"\n{C_CYAN}  {I_INPUT}  Choose an option: {C_RESET}")
+        except KeyboardInterrupt:
+            print(f"\n\n{C_GREEN}Exiting...{C_RESET}")
+            sys.exit(0)
+
+        if choice == '1':
+            print(f"\n{C_BLUE}  --- Generator Mode ---{C_RESET}")
+            phone = input(f"  {I_INPUT}  Enter WhatsApp Number (e.g., 08123...): ")
+            formatted_phone = format_number(phone)
+
+            if not formatted_phone:
+                print(f"  {C_RED}{I_ERROR} Invalid phone number!{C_RESET}")
+                time.sleep(2)
+                continue
+
+            text = input(f"  {I_INPUT}  Enter Message (Optional): ")
+
+            print(f"\n  {C_CYAN}{I_INFO} Processing...{C_RESET}")
+            time.sleep(0.5)
+
+            link = generate_link(formatted_phone, text)
+
+            print(f"\n  {C_GREEN}{I_SUCCESS} Link Generated Successfully!{C_RESET}")
+            print(f"  {C_BOLD}{link}{C_RESET}\n")
+
+            try:
+                open_choice = input(f"  {I_LINK} Open in browser? (y/n): ").lower()
+                if open_choice == 'y':
+                    webbrowser.open(link)
+            except KeyboardInterrupt:
+                pass
+
+            input(f"\n  Press Enter to return to menu...")
+
+        elif choice == '2':
+            print(f"\n{C_CYAN}  --- About ---{C_RESET}")
+            print(f"  This tool helps you create direct WhatsApp links quickly.")
+            print(f"  It automatically formats '08' numbers to international '62' format.")
+            print(f"  Supports URL encoding for messages.")
+            input(f"\n  Press Enter to return to menu...")
+
+        elif choice == '3':
+            print(f"\n  {C_GREEN}Goodbye! {I_WA}{C_RESET}")
+            break
+        else:
+            print(f"  {C_RED}Invalid Option!{C_RESET}")
+            time.sleep(1)
+
+def main():
+    parser = argparse.ArgumentParser(description="Generate WhatsApp Direct Links")
+    parser.add_argument("-n", "--number", help="Target WhatsApp Number")
+    parser.add_argument("-t", "--text", help="Message to send")
+    parser.add_argument("--no-output", action="store_true", help="Suppress output (print only link)")
+
+    args = parser.parse_args()
+
+    if args.number:
+        formatted_phone = format_number(args.number)
+        if not formatted_phone:
+            sys.stderr.write("Invalid phone number supplied.\n")
+            sys.exit(1)
+
+        link = generate_link(formatted_phone, args.text)
+
+        if args.no_output:
+            print(link)
+        else:
+            # Check if we are being piped or redirected
+            if not sys.stdout.isatty():
+                print(link)
+            else:
+                print(f"{C_GREEN}{I_SUCCESS} Link: {C_RESET}{link}")
+
+    else:
+        try:
+            interactive_mode()
+        except KeyboardInterrupt:
+            print(f"\n\n{C_GREEN}Exiting...{C_RESET}")
+            sys.exit(0)
+
+if __name__ == "__main__":
+    main()
